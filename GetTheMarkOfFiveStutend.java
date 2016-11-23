@@ -34,12 +34,12 @@ public class GetTheMarkOfFiveStutend {
 	int m44 = stud.nextInt();
 	int m55 = stud.nextInt();
 	
-	int total2=Mark.add(m1,m2,m3,m4,m5);
+	// total2=Mark.add(m1,m2,m3,m4,m5);
+	System.out.println("2nd"+ Mark.add(m1,m2,m3,m4,m5));
+	System.out.println("%% " +Mark.Avg(total));
 	
-	System.out.println("%% " +Mark.Avg(total2));
 	
-	
-	System.out.println("Now enter the mark of 3th student ");
+	System.out.println("Now enter the mark of 3th student "+total);
 	Scanner stud3=new Scanner(System.in);
 	int studStudent3=stud.nextInt();
 	int m111 = stud.nextInt();
@@ -52,7 +52,7 @@ public class GetTheMarkOfFiveStutend {
 	
 	System.out.println("%% " +Mark.Avg(total3));
 	
-	System.out.println("Now enter the mark of 4th student ");
+	System.out.println("Now enter the mark of 4th student " + total3);
 	Scanner stud4=new Scanner(System.in);
 	int studStudent4=stud.nextInt();
 	int m1111 = stud.nextInt();
@@ -65,7 +65,7 @@ public class GetTheMarkOfFiveStutend {
 	
 	System.out.println("%% " +Mark.Avg(total4));
 	
-	System.out.println("Now enter the mark of 5th student ");
+	System.out.println("Now enter the mark of 5th student "+total4);
 	Scanner stud5=new Scanner(System.in);
 	int studStudent5=stud.nextInt();
 	int m11111 = stud.nextInt();
