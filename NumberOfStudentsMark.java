@@ -1,4 +1,4 @@
-package Nov9;
+
 
 import java.util.Scanner;
 
@@ -14,19 +14,19 @@ int student=0;
 while(student<5){
 	int subject=0;
          String studentsnames;
-         Scanner jose=new Scanner(System.in);
+         Scanner obj=new Scanner(System.in);
          student=student+1;
          subject=subject+1;
         System.out.println("Enter student names=" );
-        String studentsnames1=jose.nextLine();
+        String studentsnames1=obj.nextLine();
         
        
       System.out.println("enter mark=");
-       int Mark1=jose.nextInt();
-       int Mark2=jose.nextInt();
-       int Mark3=jose.nextInt();
-       int Mark4=jose.nextInt();
-       int Mark5=jose.nextInt();
+       int Mark1=obj.nextInt();
+       int Mark2=obj.nextInt();
+       int Mark3=obj.nextInt();
+       int Mark4=obj.nextInt();
+       int Mark5=obj.nextInt();
     int total= in.add(Mark1,Mark2,Mark3,Mark4,Mark5);
    float avg= in.avg(total);
   
