@@ -14,6 +14,7 @@ public class AdditionTwoNo {
 		System.out.println("Enter the 2 value " );
 		
 		int a = obj.nextInt();
+		while(choice==1){
 		int b = obj.nextInt();
 		
 		System.out.println("what you want to do");
@@ -50,7 +51,7 @@ public class AdditionTwoNo {
 	
 	System.out.println("1.Yes");
 	System.out.println("2.No ");
-	
+		}
 		}
 		}
 		
