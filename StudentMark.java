@@ -7,7 +7,7 @@ public class StudentMark {
 		
 		
 		
-		{
+		do{
 		int SubjectCount=0;
 		
 		studentCount=studentCount+1;
