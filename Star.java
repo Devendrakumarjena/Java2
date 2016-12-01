@@ -1,3 +1,11 @@
+/*output
+*
+**
+***
+****
+*/
+
+
 package Practice;
 
 public class Star {
