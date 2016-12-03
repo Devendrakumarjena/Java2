@@ -5,13 +5,13 @@ public class Pattens {
 	public static void main(String[] args) {
 		
 		/* output
-		     *
-		    ***
-		   *****
-		  *******
-		   *****
-		    ***
-		     *
+		      1
+  			 123
+ 			12345
+		   1234567
+ 		    12345
+  			 123
+   			  1
 		 */
 		
 		int noOfcol=1;
@@ -24,7 +24,8 @@ public class Pattens {
 					
 			}
 		
-		if(i<4){
+		if(i<4)
+		{
 			noofs=noofs-1;
 		}
 		else 
@@ -37,10 +38,11 @@ public class Pattens {
 				
 				System.out.print("");
 			
-				System.out.print("*");
+				System.out.print(j);
 				
 			}
 			System.out.println();
+			
 			if(i<4)
 			{
 			noOfcol=noOfcol+2;
