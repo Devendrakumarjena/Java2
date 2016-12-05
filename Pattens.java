@@ -1,4 +1,4 @@
-package Practice;
+ Practice;
 
 public class Pattens {
 
@@ -21,25 +21,22 @@ public class Pattens {
 				for(int j=1;j<=noofs;j++)
 				{
 					System.out.print(" ");
-					
-			}
-		
-		if(i<4){
+				}
+		if(i<4)
+			{
 			noofs=noofs-1;
-		}
-		else 
-		{
-			noofs=noofs+1;
-			
-		}
+			}
+			else 
+				{
+				noofs=noofs+1;
+				}
 			for(int j=1;j<=noOfcol;j++)
 			{
-				
-				System.out.print("");
-			
+				System.out.print("");				
 				System.out.print("*");
+			}	
 				
-			}
+			
 			System.out.println();
 			if(i<4)
 			{
