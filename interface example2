@@ -1,0 +1,85 @@
+package Home.practice;
+
+public interface MobilePhone {
+	void call();
+	void msg();
+	void whatup();
+
+}
+package Home.practice;
+
+public class Samsug implements MobilePhone {
+
+	@Override
+	public void call() {
+		System.out.println("Call dev from samsung");
+		
+	}
+
+	@Override
+	public void msg() {
+	   System.out.println("massege dev from samsung");
+		
+	}
+
+	@Override
+	public void whatup() {
+		System.out.println("whatsup dev from samsung");
+		
+	}
+	
+
+}
+package Home.practice;
+
+public class ModelS7 extends Samsug {
+
+	public static void main(String[] args) {
+		Samsug obj=new Samsug();
+		obj.call();
+		obj.msg();
+		obj.whatup();
+
+	}
+
+}
+
+package Home.practice;
+
+public class Nokia implements MobilePhone {
+
+	@Override
+	public void call() {
+		System.out.println("call dev from Nokia");
+		
+	}
+
+	@Override
+	public void msg() {
+		// TODO Auto-generated method stub
+		System.out.println("call dev from Nokia");
+		
+	}
+
+	@Override
+	public void whatup() {
+		// TODO Auto-generated method stub
+		System.out.println("call dev from Nokia ");
+		
+	}
+
+}
+package Home.practice;
+
+public class Nokia950 extends Nokia {
+
+	public static void main(String[] args) {
+	
+		Nokia obj1=new Nokia950();
+		obj1.call();
+		obj1.msg();
+		obj1.whatup();
+
+	}
+
+}
